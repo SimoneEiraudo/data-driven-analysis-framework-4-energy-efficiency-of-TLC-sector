@@ -4,6 +4,11 @@ This repository includes the Python scripts and Jupyter Notebooks necessary to p
 
 The framework first allows preprocessing of data, including data filtering and normalization. Then, regression models are trained, according to three different approaches, namely non-parametric, parametric and semi-parametric models. Finally, anomaly detection is performed thanks to CUSUM-based electrical load control charts. 
 
+## Data
+Public data to test the pipeline are made available at: https://zenodo.org/records/15691194
+
+## Pipeline
+
 The user is provided with:
 -3 packages, for the different steps of the pipeline: "preprocessing", "regression", and "load_monitoring".
 -Each package contains scripts, for data processing and models training, and notebook.
