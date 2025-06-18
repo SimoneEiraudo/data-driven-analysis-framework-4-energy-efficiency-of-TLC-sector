@@ -1,0 +1,19 @@
+Variable_name,Variable_long_name,Unit_long_name,variable_label,Comment
+T_a,Temperature,°C,Temperature [°C]
+P,potenza_kWh,kW,Electrical Load [$kW$],potencia media anonimizada
+T_b,Temperature_C,°C,Temperature [°C],temperatura sacada por otra fuente de datos metereologicos
+DP,Dew_Point_C,°C,Dew Point [°C]
+RH,Humidity,%,Relative Humidity [%]
+Wv,Speed_m/s,m/s,Wind Speed [$m/s$],velocidad del viento
+Wgv,Gust_m/s,m/s,Gust Speed [$m/s$],representa la velocidad de las rafagas de viento
+atmP,Pressure_Pa,Pa,Pressure [$Pa$]
+UV,UV,-,UV Radiation [-],se refiere a la escala de radiacion UV con valores de 1 a 10
+G,Solar_W/m2,W/m^2,Mean Solar Radiation [$W/m^2$], horizontal solar radiation (cuidado podria ser directa o global dependiendo de la estacion meterologica de la cual se han sacado los datos)
+s_Wa,sin_Wind,-,Sine of wind Direction,primera variable del encoding cyclico de la direccion del viento
+c_Wa,cos_Wind,-,Cosine of wind Direction,segunda variable del encoding cyclico de la direccion del viento
+s_H,sin_Hour,-,Sine of Hour,primera variable del encoding cyclico de la hora del dia
+c_H,cos_Hour,-,Cosine of Hour,segunda variable del encoding cyclico de la hora del dia
+dayType,dayType,-,Day Type,encoding del tipo de dia: 0 se curre - 1 sabado domingos y fiestas
+s_D,sin_dayOfYear,-,Sine of Day,primera variable del encoding cyclico del dia del año
+c_D,cos_dayOfYear,-,Cosine of Day, segunda variable del encoding cyclico del dia del año
+ID,pod,-,-,identificativo del edificio]
